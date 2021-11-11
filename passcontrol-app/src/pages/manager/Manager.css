@@ -1,0 +1,11 @@
+.manager {
+}
+
+.manager .call-next {
+  display: flex;
+  justify-content: center;
+}
+
+.call-next button {
+  padding: 1rem 3rem;
+}

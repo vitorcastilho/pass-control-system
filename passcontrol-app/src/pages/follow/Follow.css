@@ -1,0 +1,80 @@
+.Follow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.actual-pass {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.actual-pass .pass {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #2c3e50;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.call-pass {
+  background: #34495e;
+  border: 0.1rem solid #34495e;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  margin: 0.1rem;
+
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.call-pass .title {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.call-pass .list {
+  flex: 1;
+  border-radius: 10px;
+  color: #34495e;
+  padding: 0.1rem;
+}
+
+.call-pass .list li {
+  background-color: #ecf0f1;
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+  border-radius: 10px;
+}
+
+.last-pass {
+  background: #34495e;
+  display: flex;
+  margin-top: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.last-pass h3 {
+  font-size: 2rem;
+}
+
+.last-pass ul {
+  color: #2c3e50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.last-pass ul li {
+  padding: 0.1rem 1rem;
+  background-color: #ecf0f1;
+  margin-left: 1rem;
+  border-radius: 0.8rem;
+}
